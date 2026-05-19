@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Request a Print Quote | Mico Industrial Press Awka</title>
+    <meta name="description" content="Request a print quote from Mico Industrial Press in Awka for commercial printing, Direct Image Printing, brochures, magazines, heat transfer, banners, badges, and books.">
+    <link rel="canonical" href="https://micoindustrialpress.com/quote.html">
+    <meta property="og:site_name" content="Mico Industrial Press">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Request a Print Quote | Mico Industrial Press Awka">
+    <meta property="og:description" content="Send quantity, size, material, deadline, and artwork details for a quote from Mico Industrial Press.">
+    <meta property="og:url" content="https://micoindustrialpress.com/quote.html">
+    <meta property="og:locale" content="en_NG">
+    <meta name="api-base-url" content="http://localhost:3001">
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/quote-form.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" data-site-header>
+      <div class="site-header__top">
+        <div class="container site-header__top-inner">
+          <a class="contact-link" href="tel:+2348037400918">08037400918</a>
+          <span class="site-header__meta">No 24 Zik Avenue Amawbia, Awka-South L.G.A</span>
+          <a class="contact-link" href="mailto:micoindustrial@yahoo.com">micoindustrial@yahoo.com</a>
+        </div>
+      </div>
+      <div class="container site-header__inner">
+        <a class="brand" href="index.html" aria-label="Mico Industrial Press home">
+          <span class="brand__mark" aria-hidden="true">MIP</span>
+          <span class="brand__text">
+            <span class="brand__name">Mico Industrial Press</span>
+            <span class="brand__tagline">Commercial &amp; Industrial Printing</span>
+          </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
+          <span class="nav-toggle__line" aria-hidden="true"></span>
+          <span class="nav-toggle__line" aria-hidden="true"></span>
+          <span class="nav-toggle__line" aria-hidden="true"></span>
+          <span class="sr-only">Menu</span>
+        </button>
+        <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation" data-primary-nav>
+          <a class="primary-nav__link" href="index.html">Home</a>
+          <a class="primary-nav__link" href="about.html">About</a>
+          <a class="primary-nav__link" href="services.html">Services</a>
+          <a class="primary-nav__link" href="portfolio.html">Portfolio</a>
+          <a class="primary-nav__link" href="contact.html">Contact</a>
+          <a class="button button--small button--primary primary-nav__cta" href="quote.html">Request Quote</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-main" id="main-content">
+      <section class="page-shell section" aria-labelledby="quote-title">
+        <div class="container page-shell__inner">
+          <div>
+            <p class="eyebrow">Request Quote</p>
+            <h1 id="quote-title">Send the job details before production starts.</h1>
+            <p class="lede">Use this form to send the practical details needed for a useful quote.</p>
+            <div class="button-group" aria-label="Primary actions">
+              <a class="button button--primary" href="quote.html">Request Quote</a>
+              <a class="button button--secondary" href="https://wa.me/2348037400918">Chat on WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="quote-form-title">
+        <div class="container split-content">
+          <form class="form-shell" id="quote-form" data-quote-form novalidate aria-labelledby="quote-form-title">
+            <div>
+              <p class="eyebrow">Quote Form</p>
+              <h2 id="quote-form-title">Tell us what you want to print.</h2>
+              <p class="muted">Required fields are marked. The request will be sent to Mico Industrial Press for follow-up.</p>
+            </div>
+
+            <div class="form-alert form-alert--error" data-form-error role="alert" aria-live="assertive"></div>
+            <div class="form-alert form-alert--success" data-form-success role="status" aria-live="polite"></div>
+
+            <div class="form-grid form-grid--two">
+              <div class="form-field" data-field>
+                <label for="full-name">Full name *</label>
+                <input id="full-name" name="fullName" type="text" autocomplete="name" required aria-describedby="full-name-error">
+                <p class="form-error" id="full-name-error">Please enter your full name.</p>
+              </div>
+
+              <div class="form-field" data-field>
+                <label for="phone">Phone number *</label>
+                <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required aria-describedby="phone-error">
+                <p class="form-error" id="phone-error">Please enter a phone number we can call.</p>
+              </div>
+
+              <div class="form-field" data-field>
+                <label for="email">Email *</label>
+                <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+                <p class="form-error" id="email-error">Please enter a valid email address.</p>
+              </div>
+
+              <div class="form-field" data-field>
+                <label for="organization">Company / organization</label>
+                <input id="organization" name="organization" type="text" autocomplete="organization">
+              </div>
+
+              <div class="form-field" data-field>
+                <label for="service-needed">Service needed *</label>
+                <select id="service-needed" name="serviceNeeded" required aria-describedby="service-needed-error">
+                  <option value="">Select a service</option>
+                  <option>Commercial &amp; Industrial Printing</option>
+                  <option>Direct Image Printing</option>
+                  <option>Brochures</option>
+                  <option>Magazines</option>
+                  <option>Heat Transfer</option>
+                  <option>Metal Badges and Pinups</option>
+                  <option>Digital Banners</option>
+                  <option>Books, Journals, or Textbooks</option>
+                  <option>Other Printing Job</option>
+                </select>
+                <p class="form-error" id="service-needed-error">Please choose the service you need.</p>
+              </div>
+
+              <div class="form-field" data-field>
+                <label for="quantity">Quantity *</label>
+                <input id="quantity" name="quantity" type="text" required aria-describedby="quantity-error" placeholder="Example: 500 copies">
+                <p class="form-error" id="quantity-error">Please enter the quantity.</p>
+              </div>
+
+              <div class="form-field" data-field>
+                <label for="dimensions">Size / dimensions</label>
+                <input id="dimensions" name="dimensions" type="text" placeholder="Example: A4, A5, 3ft x 6ft">
+              </div>
+
+              <div class="form-field" data-field>
+                <label for="material">Material / paper type</label>
+                <input id="material" name="material" type="text" placeholder="Example: Art paper, bond paper, fabric">
+              </div>
+
+              <div class="form-field" data-field>
+                <label for="color">Colour preference</label>
+                <select id="color" name="color">
+                  <option value="">Select if known</option>
+                  <option>Full colour</option>
+                  <option>Black and white</option>
+                  <option>Mixed / not sure</option>
+                </select>
+              </div>
+
+              <div class="form-field" data-field>
+                <label for="deadline">Deadline</label>
+                <input id="deadline" name="deadline" type="date">
+              </div>
+
+              <fieldset class="form-fieldset form-fieldset--full">
+                <legend class="form-legend">Single-sided or double-sided</legend>
+                <div class="option-grid">
+                  <label class="option-item"><input type="radio" name="sides" value="Single-sided"> Single-sided</label>
+                  <label class="option-item"><input type="radio" name="sides" value="Double-sided"> Double-sided</label>
+                  <label class="option-item"><input type="radio" name="sides" value="Not sure"> Not sure</label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-fieldset form-fieldset--full">
+                <legend class="form-legend">Finishing options</legend>
+                <div class="option-grid">
+                  <label class="option-item"><input type="checkbox" name="finishing" value="Lamination"> Lamination</label>
+                  <label class="option-item"><input type="checkbox" name="finishing" value="Binding"> Binding</label>
+                  <label class="option-item"><input type="checkbox" name="finishing" value="Cutting"> Cutting</label>
+                  <label class="option-item"><input type="checkbox" name="finishing" value="Folding"> Folding</label>
+                  <label class="option-item"><input type="checkbox" name="finishing" value="Stapling"> Stapling</label>
+                  <label class="option-item"><input type="checkbox" name="finishing" value="Not sure"> Not sure</label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-fieldset form-fieldset--full">
+                <legend class="form-legend">Pickup or delivery preference</legend>
+                <div class="option-grid">
+                  <label class="option-item"><input type="radio" name="handover" value="Pickup"> Pickup</label>
+                  <label class="option-item"><input type="radio" name="handover" value="Delivery discussion"> Delivery discussion</label>
+                  <label class="option-item"><input type="radio" name="handover" value="Not sure"> Not sure</label>
+                </div>
+              </fieldset>
+
+              <div class="form-field" data-field>
+                <label for="budget">Budget range</label>
+                <input id="budget" name="budget" type="text" placeholder="Optional">
+              </div>
+
+              <div class="form-field form-field--full" data-field>
+                <label for="message">Message / job details *</label>
+                <textarea id="message" name="message" required aria-describedby="message-error" placeholder="Describe the job, deadline, artwork status, and any special instructions."></textarea>
+                <p class="form-error" id="message-error">Please describe the job.</p>
+              </div>
+
+              <div class="form-field form-field--full" data-field>
+                <label for="artwork">Upload artwork or sample</label>
+                <div class="file-upload">
+                  <input id="artwork" name="artwork" type="file" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx" aria-describedby="artwork-hint artwork-error">
+                  <p class="form-hint" id="artwork-hint">Optional upload. Accepted types: PDF, JPG, PNG, DOC, DOCX. If upload is unavailable, use WhatsApp or email after submitting the request.</p>
+                  <p class="form-error" id="artwork-error">Please choose a PDF, JPG, PNG, DOC, or DOCX file.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="button-group">
+              <button class="button button--primary" type="submit">Send Quote Request</button>
+              <a class="button button--secondary" href="https://wa.me/2348037400918">Use WhatsApp Instead</a>
+            </div>
+          </form>
+
+          <aside class="info-panel" aria-label="Quote help">
+            <h2>Before You Submit</h2>
+            <ul class="fact-list">
+              <li><strong>Submission Status</strong><span>This form sends to the backend API. Email delivery depends on SMTP configuration.</span></li>
+              <li><strong>Fast Help</strong><span>For urgent jobs, use WhatsApp or call <a href="tel:+2348037400918">08037400918</a>.</span></li>
+              <li><strong>Useful Details</strong><span>Quantity, size, material, deadline, and artwork status help the team quote properly.</span></li>
+              <li><strong>Business Hours</strong><span>Monday-Friday 9am-6pm, Saturday 10am-3pm.</span></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div class="site-footer__brand">
+          <p class="site-footer__title">Mico Industrial Press</p>
+          <p class="site-footer__text">Commercial and industrial printing at No 24 Zik Avenue Amawbia, Awka-South L.G.A, Anambra State.</p>
+        </div>
+        <div class="site-footer__columns">
+          <div>
+            <p class="site-footer__heading">Pages</p>
+            <ul class="site-footer__list">
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="quote.html">Request Quote</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="site-footer__heading">Services</p>
+            <ul class="site-footer__list">
+              <li><a href="services/commercial-industrial-printing.html">Commercial Printing</a></li>
+              <li><a href="services/direct-image-printing.html">Direct Image Printing</a></li>
+              <li><a href="services/heat-transfer.html">Heat Transfer</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="site-footer__heading">Contact</p>
+            <ul class="site-footer__list">
+              <li><a href="tel:+2348037400918">08037400918</a></li>
+              <li><a href="https://wa.me/2349019574275">09019574275</a></li>
+              <li><a href="mailto:micoindustrial@yahoo.com">micoindustrial@yahoo.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <div class="container">
+          <p class="site-footer__small">&copy; 2026 Mico Industrial Press. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <nav class="mobile-cta" aria-label="Quick contact actions">
+      <a class="mobile-cta__link mobile-cta__link--primary" href="tel:+2348037400918" aria-label="Call Mico Industrial Press at 08037400918">Call</a>
+      <a class="mobile-cta__link mobile-cta__link--whatsapp" href="https://wa.me/2348037400918" aria-label="Chat with Mico Industrial Press on WhatsApp">WhatsApp</a>
+      <a class="mobile-cta__link" href="quote.html" aria-label="Request a print quote">Quote</a>
+    </nav>
+  </body>
+</html>
