@@ -8,7 +8,7 @@
   const API_BASE_URL =
     window.MICO_API_BASE_URL ||
     document.querySelector('meta[name="api-base-url"]')?.content ||
-    "http://localhost:3001";
+    "https://mico-industrial-press-api.onrender.com";
   const CONTACT_ENDPOINT = `${API_BASE_URL.replace(/\/$/, "")}/api/contact`;
 
   const errorAlert = form.querySelector("[data-form-error]");
